@@ -1,9 +1,9 @@
 {
-  "name": "gqlprune",
-  "version": "1.2.8",
+  "name": "graphql-prune",
+  "version": "1.0.0",
   "description": "This script helps identify unused GraphQL operations (queries, mutations, subscriptions) in your project. It scans .gql files for operations and checks if they are being used in your TypeScript/JavaScript files.",
   "bin": {
-    "gqlPrune": "./dist/cli.js"
+    "gqlPrune": "dist/cli.js"
   },
   "files": [
     "dist"
@@ -36,7 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Krister-Johansson/gqlPrune.git"
+    "url": "git+https://github.com/Krister-Johansson/gqlPrune.git"
   },
   "bugs": {
     "url": "https://github.com/Krister-Johansson/gqlPrune/issues"
@@ -65,5 +65,8 @@
     "standard-version": "^9.5.0",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }
